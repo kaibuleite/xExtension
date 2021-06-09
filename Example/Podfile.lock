@@ -1,0 +1,16 @@
+PODS:
+  - xExtension (0.1.0)
+
+DEPENDENCIES:
+  - xExtension (from `../`)
+
+EXTERNAL SOURCES:
+  xExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  xExtension: c7d3536fbc081826a441f556e2c3d85c398fff6a
+
+PODFILE CHECKSUM: 4b1ceb6cdd8541dc279c3aa70c3aac5b35918e91
+
+COCOAPODS: 1.9.1
