@@ -11,7 +11,7 @@ extension UIViewController {
     
     /// 实例化默认视图控制器
     /// - Returns: 实例化对象
-    open class func xDefaultViewController() -> Self
+    @objc open class func xDefaultViewController() -> Self
     {
         let vc = UIViewController()
         return vc as! Self

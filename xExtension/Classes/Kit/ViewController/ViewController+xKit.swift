@@ -10,11 +10,11 @@ import UIKit
 extension UIViewController {
     
     /// 添加其他UI控件
-    open func addKit() { }
+    @objc open func addKit() { }
     
     /// 添加子控制器
-    open func addChildren() { }
+    @objc open func addChildren() { }
     
     /// 请求数据
-    open func requestData() { }
+    @objc open func requestData() { }
 }
