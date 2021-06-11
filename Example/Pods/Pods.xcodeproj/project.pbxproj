@@ -10,6 +10,7 @@
 		001331D9EBCEDEBD7FE0CB7C1BEB56F6 /* String+xRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4200A142CD79F79556B4D5F2541C2B3D /* String+xRegex.swift */; };
 		01F40B89A3421D2E8BF3B38A8BE4D834 /* Image+xToValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926D14B16B1FED7AFB55870667676E9F /* Image+xToValue.swift */; };
 		04ED93E6267309F8001D42B7 /* Double+xToValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED93E5267309F8001D42B7 /* Double+xToValue.swift */; };
+		04ED943726735119001D42B7 /* ViewController+xKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED943626735119001D42B7 /* ViewController+xKit.swift */; };
 		1679776F3A9E2B5D1D43B9DB4523DD4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1EE30DD7446489905A7ACAAAD5AE2926 /* Color+xNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE4D2B961A6F8E3D6E80B3295CDC24 /* Color+xNew.swift */; };
 		1EF8CB5E8334A583BCDA9BFDAA6BBA9F /* String+xReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F952107E93F4B35CDEB2A69F40CD8 /* String+xReplace.swift */; };
@@ -71,6 +72,7 @@
 
 /* Begin PBXFileReference section */
 		04ED93E5267309F8001D42B7 /* Double+xToValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+xToValue.swift"; sourceTree = "<group>"; };
+		04ED943626735119001D42B7 /* ViewController+xKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+xKit.swift"; sourceTree = "<group>"; };
 		07E06B45F938270BBA7C2A5F5461EEB0 /* Label+xRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Label+xRect.swift"; sourceTree = "<group>"; };
 		09841648FAD4AEC70E582C0E0230A84E /* xExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = xExtension.modulemap; sourceTree = "<group>"; };
 		1187F7399FADA52AA070C5C2E673D6FF /* Pods_xExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +182,7 @@
 			children = (
 				D2BBFD0AC1C6A16BC574E37FAC0645A9 /* ViewController+xChild.swift */,
 				E9F4849651375328A894A113A5E354FF /* ViewController+xNew.swift */,
+				04ED943626735119001D42B7 /* ViewController+xKit.swift */,
 				A26CA2398B0CB8222D9F8CEF118E659F /* ViewController+xTabbar.swift */,
 			);
 			path = ViewController;
@@ -626,6 +629,7 @@
 				BC20DEEC997F48AFF8EEC5D148027F2C /* View+xFrame.swift in Sources */,
 				F8BAC59B12A3DE88697F1E07E01CD29C /* View+xLayout.swift in Sources */,
 				7CEC4FE8786BE3D1394F62306CCBF02B /* View+xSnapshot.swift in Sources */,
+				04ED943726735119001D42B7 /* ViewController+xKit.swift in Sources */,
 				60DE5D4BC45EA0C67C689335A81AE3D1 /* View+xToValue.swift in Sources */,
 				D002372667F333A43CABB6349FF51B80 /* ViewController+xChild.swift in Sources */,
 				2F6060A3ADA62D44E4DEDE77364320D7 /* ViewController+xNew.swift in Sources */,
