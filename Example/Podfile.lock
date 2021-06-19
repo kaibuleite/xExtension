@@ -1,16 +1,23 @@
 PODS:
-  - xExtension (1.0.2)
+  - xDefine (1.0.2)
+  - xExtension (1.0.7):
+    - xDefine
 
 DEPENDENCIES:
   - xExtension (from `../`)
+
+SPEC REPOS:
+  https://github.com/kaibuleite/xSpecs.git:
+    - xDefine
 
 EXTERNAL SOURCES:
   xExtension:
     :path: "../"
 
 SPEC CHECKSUMS:
-  xExtension: 25ebe7c3c8bda80dafe18b6ff73b8119d09d8225
+  xDefine: 0df7b51c0e6edb71ca9fd667f728699d0a7a1b12
+  xExtension: f7e8461661c65a01ae1c775644103a1a0e585cad
 
-PODFILE CHECKSUM: 4b1ceb6cdd8541dc279c3aa70c3aac5b35918e91
+PODFILE CHECKSUM: c586dffee56963f9527db49ef23f5e96f38b6ead
 
 COCOAPODS: 1.9.1
