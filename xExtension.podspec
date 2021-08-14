@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'xExtension'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Swift Object Extension.'
+  s.swift_version    = '5'      # Swift版本号
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
