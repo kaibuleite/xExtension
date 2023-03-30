@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F7ADD329D5503D00C74A7D /* Double+xNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7ADD229D5503D00C74A7D /* Double+xNew.swift */; };
+		04F7ADD529D5504600C74A7D /* Float+xNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7ADD429D5504600C74A7D /* Float+xNew.swift */; };
+		04F7ADD829D551E400C74A7D /* Dictionary+xLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7ADD729D551E400C74A7D /* Dictionary+xLog.swift */; };
 		08ACEBCAD55DE3DCDA6DE4866C483C20 /* ViewController+xTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3155B3DACEDCCA5F01F2E1E1DD316 /* ViewController+xTabbar.swift */; };
 		0E567EC0C13B57ECE932286F6F7E2505 /* Array+xFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351B0E9D2D7F572C42F67A1660965DA /* Array+xFind.swift */; };
 		1093A7A0C1F971B7C153709421F2E229 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBF5282880007775035318057ECFDF /* Notification.swift */; };
@@ -101,6 +104,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F7ADD229D5503D00C74A7D /* Double+xNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+xNew.swift"; sourceTree = "<group>"; };
+		04F7ADD429D5504600C74A7D /* Float+xNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+xNew.swift"; sourceTree = "<group>"; };
+		04F7ADD729D551E400C74A7D /* Dictionary+xLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+xLog.swift"; sourceTree = "<group>"; };
 		09317B3C1D09DDAFA2AB371717C26A65 /* xDefine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "xDefine-Info.plist"; sourceTree = "<group>"; };
 		09841648FAD4AEC70E582C0E0230A84E /* xExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = xExtension.modulemap; sourceTree = "<group>"; };
 		1187F7399FADA52AA070C5C2E673D6FF /* Pods_xExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +234,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04F7ADD629D551D700C74A7D /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				04F7ADD729D551E400C74A7D /* Dictionary+xLog.swift */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
 		0B9EDBDAECE4972FED5CD926E0289794 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,6 +423,7 @@
 		89729BEED7C54421B63F8370D7473F39 /* Object */ = {
 			isa = PBXGroup;
 			children = (
+				04F7ADD629D551D700C74A7D /* Dictionary */,
 				9D289E85229D485A47F84CF59B1E18C4 /* Array */,
 				ADE5AEC714C017998011E0E4050DD70C /* Date */,
 				D4851177D6B1DA0B6163366F2074DE9E /* Float */,
@@ -514,7 +529,9 @@
 		D4851177D6B1DA0B6163366F2074DE9E /* Float */ = {
 			isa = PBXGroup;
 			children = (
+				04F7ADD229D5503D00C74A7D /* Double+xNew.swift */,
 				1DC41B1D8B8CB3A1399D4A44A4F13C84 /* Double+xToValue.swift */,
+				04F7ADD429D5504600C74A7D /* Float+xNew.swift */,
 				F60B7789ABB91FC7955A20742614D16D /* Float+xToValue.swift */,
 			);
 			path = Float;
@@ -778,6 +795,7 @@
 				0E567EC0C13B57ECE932286F6F7E2505 /* Array+xFind.swift in Sources */,
 				65A52112F8D36986C3B21FB45A42B258 /* Button+xNew.swift in Sources */,
 				385CCC86D626CBEE1784D590C9C0E64A /* Color+xEdit.swift in Sources */,
+				04F7ADD329D5503D00C74A7D /* Double+xNew.swift in Sources */,
 				257FB23F82C027FC8B9632F4995541F9 /* Color+xNew.swift in Sources */,
 				688B0F5AB493FAAA295A26522B22265D /* Color+xToValue.swift in Sources */,
 				EC0DB1BEB9A38BC1A9F676C3E0479C49 /* Date+xTime.swift in Sources */,
@@ -798,9 +816,11 @@
 				F7950E0099C7159FC317B9D07028E6B7 /* String+xEdit.swift in Sources */,
 				5470EBE6154182770EAF513F0220F5F4 /* String+xHash.swift in Sources */,
 				417F9ABA52E91E437660AA24642D7A9D /* String+xRect.swift in Sources */,
+				04F7ADD529D5504600C74A7D /* Float+xNew.swift in Sources */,
 				F2CC516FA25F564F2A37DB482F19DE4B /* String+xRegex.swift in Sources */,
 				71FDCE83AC2BE4B77920ED751B591A1A /* String+xReplace.swift in Sources */,
 				9689A575A434B580997CE652876A3C52 /* String+xSub.swift in Sources */,
+				04F7ADD829D551E400C74A7D /* Dictionary+xLog.swift in Sources */,
 				CE970E97BBE12C5050E78A7EC419CF17 /* String+xToValue.swift in Sources */,
 				93BFEB32063E73C97A4523C80D47986B /* Timer+xNew.swift in Sources */,
 				6DA8549EB0CD9E028A6CC6AE49C49BCE /* View+xEdit.swift in Sources */,
