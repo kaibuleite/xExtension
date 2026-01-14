@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'xExtension'
-  s.version          = '1.1.8'
+  s.version          = '1.1.9'
   s.summary          = 'Swift Object Extension.'
   s.swift_version    = '5'      # Swift版本号
 
